@@ -1,0 +1,157 @@
+2026-06-07 11:03:38 - email_automation - INFO - Connecting to SMTP server: smtp.gmail.com:587
+2026-06-07 11:03:40 - email_automation - INFO - Starting TLS encryption
+2026-06-07 11:03:41 - email_automation - INFO - Successfully authenticated with SMTP server
+2026-06-07 11:03:41 - email_automation - INFO - Sending email to recipient@example.com
+2026-06-07 11:03:42 - email_automation - INFO - Email sent successfully in 4.30s
+2026-06-07 11:03:42 - email_automation - INFO - Email to recipient@example.com | Subject: Test Email | Status: Success | Details: Sent in 4.30s
+2026-06-07 11:03:42 - email_automation - INFO - Closed SMTP connection
+2026-06-07 11:07:31 - email_automation - INFO - Connecting to SMTP server: smtp.gmail.com:587
+2026-06-07 11:07:34 - email_automation - INFO - Starting TLS encryption
+2026-06-07 11:07:34 - email_automation - INFO - Successfully authenticated with SMTP server
+2026-06-07 11:07:34 - email_automation - INFO - Sending email to pnehap244@gmail.com
+2026-06-07 11:07:36 - email_automation - INFO - Email sent successfully in 4.22s
+2026-06-07 11:07:36 - email_automation - INFO - Email to pnehap244@gmail.com | Subject: Test Email from Email Automation | Status: Success | Details: Sent in 4.22s
+2026-06-07 11:07:36 - email_automation - INFO - Closed SMTP connection
+2026-06-07 11:09:13 - email_automation - INFO - Starting bulk email sending to 2 recipients
+2026-06-07 11:09:13 - email_automation - INFO - Sending email 1/2 to pnehap244@gmail.com
+2026-06-07 11:09:13 - email_automation - INFO - Connecting to SMTP server: smtp.gmail.com:587
+2026-06-07 11:09:15 - email_automation - INFO - Starting TLS encryption
+2026-06-07 11:09:16 - email_automation - INFO - Successfully authenticated with SMTP server
+2026-06-07 11:09:16 - email_automation - INFO - Sending email to pnehap244@gmail.com
+2026-06-07 11:09:17 - email_automation - INFO - Email sent successfully in 4.24s
+2026-06-07 11:09:17 - email_automation - INFO - Email to pnehap244@gmail.com | Subject: Test Email from Email Automation for bulk mails | Status: Success | Details: Sent in 4.24s
+2026-06-07 11:09:17 - email_automation - INFO - Closed SMTP connection
+2026-06-07 11:09:17 - email_automation - INFO - Sending email 2/2 to nehapsinfo@gmail.com
+2026-06-07 11:09:17 - email_automation - INFO - Connecting to SMTP server: smtp.gmail.com:587
+2026-06-07 11:09:19 - email_automation - INFO - Starting TLS encryption
+2026-06-07 11:09:20 - email_automation - INFO - Successfully authenticated with SMTP server
+2026-06-07 11:09:20 - email_automation - INFO - Sending email to nehapsinfo@gmail.com
+2026-06-07 11:09:22 - email_automation - INFO - Email sent successfully in 4.11s
+2026-06-07 11:09:22 - email_automation - INFO - Email to nehapsinfo@gmail.com | Subject: Test Email from Email Automation for bulk mails | Status: Success | Details: Sent in 4.11s
+2026-06-07 11:09:22 - email_automation - INFO - Closed SMTP connection
+2026-06-07 11:09:22 - email_automation - INFO - Bulk email sending completed. Successful: 2, Failed: 0
+2026-06-07 11:11:25 - email_automation - ERROR - Invalid recipient email address: pnehap244@gmail.com, nehapsinfo@gmail.com
+2026-06-07 11:11:25 - email_automation - ERROR - Email to pnehap244@gmail.com, nehapsinfo@gmail.com | Subject: Bulk Email automation with attachments | Status: Failed | Details: Invalid recipient email address: pnehap244@gmail.com, nehapsinfo@gmail.com
+2026-06-07 11:17:34 - email_automation - INFO - Starting bulk email sending to 2 recipients
+2026-06-07 11:17:34 - email_automation - INFO - Sending email 1/2 to pnehap244@gmail.com
+2026-06-07 11:17:34 - email_automation - INFO - Connecting to SMTP server: smtp.gmail.com:587
+2026-06-07 11:17:36 - email_automation - INFO - Starting TLS encryption
+2026-06-07 11:17:37 - email_automation - INFO - Successfully authenticated with SMTP server
+2026-06-07 11:17:37 - email_automation - INFO - Attached file: SafeSend_Letter_Builder_Presentation.pdf
+2026-06-07 11:17:37 - email_automation - INFO - Attached file: report_merged (4).pdf
+2026-06-07 11:17:37 - email_automation - INFO - Sending email to pnehap244@gmail.com
+2026-06-07 11:17:48 - email_automation - ERROR - Unexpected error while sending email: Server not connected
+2026-06-07 11:17:48 - email_automation - ERROR - Email to pnehap244@gmail.com | Subject: Bulk email with attachments | Status: Failed | Details: Unexpected error while sending email: Server not connected
+2026-06-07 11:17:48 - email_automation - WARNING - Error closing SMTP connection: please run connect() first
+2026-06-07 11:17:48 - email_automation - INFO - Sending email 2/2 to nehapsinfo@gmail.com
+2026-06-07 11:17:48 - email_automation - INFO - Connecting to SMTP server: smtp.gmail.com:587
+2026-06-07 11:17:50 - email_automation - INFO - Starting TLS encryption
+2026-06-07 11:17:51 - email_automation - INFO - Successfully authenticated with SMTP server
+2026-06-07 11:17:51 - email_automation - INFO - Attached file: SafeSend_Letter_Builder_Presentation.pdf
+2026-06-07 11:17:51 - email_automation - INFO - Attached file: report_merged (4).pdf
+2026-06-07 11:17:51 - email_automation - INFO - Sending email to nehapsinfo@gmail.com
+2026-06-07 11:18:02 - email_automation - ERROR - Unexpected error while sending email: Server not connected
+2026-06-07 11:18:02 - email_automation - ERROR - Email to nehapsinfo@gmail.com | Subject: Bulk email with attachments | Status: Failed | Details: Unexpected error while sending email: Server not connected
+2026-06-07 11:18:02 - email_automation - WARNING - Error closing SMTP connection: please run connect() first
+2026-06-07 11:18:02 - email_automation - INFO - Bulk email sending completed. Successful: 0, Failed: 2
+2026-06-07 11:19:55 - email_automation - INFO - Starting bulk email sending to 2 recipients
+2026-06-07 11:19:55 - email_automation - INFO - Sending email 1/2 to pnehap244@gmail.com
+2026-06-07 11:19:55 - email_automation - INFO - Connecting to SMTP server: smtp.gmail.com:587
+2026-06-07 11:19:58 - email_automation - INFO - Starting TLS encryption
+2026-06-07 11:19:58 - email_automation - INFO - Successfully authenticated with SMTP server
+2026-06-07 11:19:58 - email_automation - INFO - Sending email to pnehap244@gmail.com
+2026-06-07 11:20:00 - email_automation - INFO - Email sent successfully in 4.44s
+2026-06-07 11:20:00 - email_automation - INFO - Email to pnehap244@gmail.com | Subject: Bulk email with attachments | Status: Success | Details: Sent in 4.44s
+2026-06-07 11:20:00 - email_automation - INFO - Closed SMTP connection
+2026-06-07 11:20:00 - email_automation - INFO - Sending email 2/2 to nehapsinfo@gmail.com
+2026-06-07 11:20:00 - email_automation - INFO - Connecting to SMTP server: smtp.gmail.com:587
+2026-06-07 11:20:02 - email_automation - INFO - Starting TLS encryption
+2026-06-07 11:20:03 - email_automation - INFO - Successfully authenticated with SMTP server
+2026-06-07 11:20:03 - email_automation - INFO - Sending email to nehapsinfo@gmail.com
+2026-06-07 11:20:05 - email_automation - INFO - Email sent successfully in 4.71s
+2026-06-07 11:20:05 - email_automation - INFO - Email to nehapsinfo@gmail.com | Subject: Bulk email with attachments | Status: Success | Details: Sent in 4.71s
+2026-06-07 11:20:05 - email_automation - INFO - Closed SMTP connection
+2026-06-07 11:20:05 - email_automation - INFO - Bulk email sending completed. Successful: 2, Failed: 0
+2026-06-07 11:20:40 - email_automation - INFO - Starting bulk email sending to 2 recipients
+2026-06-07 11:20:40 - email_automation - INFO - Sending email 1/2 to pnehap244@gmail.com
+2026-06-07 11:20:40 - email_automation - INFO - Connecting to SMTP server: smtp.gmail.com:587
+2026-06-07 11:20:42 - email_automation - INFO - Starting TLS encryption
+2026-06-07 11:20:43 - email_automation - INFO - Successfully authenticated with SMTP server
+2026-06-07 11:20:43 - email_automation - INFO - Attached file: ChatGPT Image May 24, 2026, 11_55_11 AM.png
+2026-06-07 11:20:43 - email_automation - INFO - Attached file: ChatGPT Image Apr 16, 2026, 07_43_41 PM.png
+2026-06-07 11:20:43 - email_automation - INFO - Sending email to pnehap244@gmail.com
+2026-06-07 11:20:54 - email_automation - ERROR - Unexpected error while sending email: Server not connected
+2026-06-07 11:20:54 - email_automation - ERROR - Email to pnehap244@gmail.com | Subject: Bulk email with attachments | Status: Failed | Details: Unexpected error while sending email: Server not connected
+2026-06-07 11:20:54 - email_automation - WARNING - Error closing SMTP connection: please run connect() first
+2026-06-07 11:20:54 - email_automation - INFO - Sending email 2/2 to nehapsinfo@gmail.com
+2026-06-07 11:20:54 - email_automation - INFO - Connecting to SMTP server: smtp.gmail.com:587
+2026-06-07 11:20:56 - email_automation - INFO - Starting TLS encryption
+2026-06-07 11:20:57 - email_automation - INFO - Successfully authenticated with SMTP server
+2026-06-07 11:20:57 - email_automation - INFO - Attached file: ChatGPT Image May 24, 2026, 11_55_11 AM.png
+2026-06-07 11:20:57 - email_automation - INFO - Attached file: ChatGPT Image Apr 16, 2026, 07_43_41 PM.png
+2026-06-07 11:20:57 - email_automation - INFO - Sending email to nehapsinfo@gmail.com
+2026-06-07 11:21:08 - email_automation - ERROR - Unexpected error while sending email: Server not connected
+2026-06-07 11:21:08 - email_automation - ERROR - Email to nehapsinfo@gmail.com | Subject: Bulk email with attachments | Status: Failed | Details: Unexpected error while sending email: Server not connected
+2026-06-07 11:21:08 - email_automation - WARNING - Error closing SMTP connection: please run connect() first
+2026-06-07 11:21:08 - email_automation - INFO - Bulk email sending completed. Successful: 0, Failed: 2
+2026-06-07 11:21:54 - email_automation - INFO - Connecting to SMTP server: smtp.gmail.com:587
+2026-06-07 11:21:56 - email_automation - INFO - Starting TLS encryption
+2026-06-07 11:21:57 - email_automation - INFO - Successfully authenticated with SMTP server
+2026-06-07 11:21:57 - email_automation - INFO - Attached file: ChatGPT Image May 24, 2026, 11_55_11 AM.png
+2026-06-07 11:21:57 - email_automation - INFO - Sending email to pnehap244@gmail.com
+2026-06-07 11:22:09 - email_automation - INFO - Email sent successfully in 14.54s
+2026-06-07 11:22:09 - email_automation - INFO - Email to pnehap244@gmail.com | Subject: This is a bulk email with attachements | Status: Success | Details: Sent in 14.54s
+2026-06-07 11:22:09 - email_automation - INFO - Closed SMTP connection
+2026-06-07 11:22:51 - email_automation - INFO - Connecting to SMTP server: smtp.gmail.com:587
+2026-06-07 11:22:53 - email_automation - INFO - Starting TLS encryption
+2026-06-07 11:22:54 - email_automation - INFO - Successfully authenticated with SMTP server
+2026-06-07 11:22:54 - email_automation - INFO - Attached file: ChatGPT Image May 24, 2026, 11_55_11 AM.png
+2026-06-07 11:22:54 - email_automation - INFO - Attached file: ChatGPT Image Apr 16, 2026, 07_43_41 PM.png
+2026-06-07 11:22:54 - email_automation - INFO - Sending email to pnehap244@gmail.com
+2026-06-07 11:23:05 - email_automation - ERROR - Unexpected error while sending email: Server not connected
+2026-06-07 11:23:05 - email_automation - ERROR - Email to pnehap244@gmail.com | Subject: This is a bulk email with attachements | Status: Failed | Details: Unexpected error while sending email: Server not connected
+2026-06-07 11:23:05 - email_automation - WARNING - Error closing SMTP connection: please run connect() first
+2026-06-07 11:39:04 - email_automation - INFO - Starting bulk email sending to 2 recipients
+2026-06-07 11:39:04 - email_automation - INFO - Sending email 1/2 to pnehap244@gmail.com
+2026-06-07 11:39:04 - email_automation - INFO - Connecting to SMTP server: smtp.gmail.com:587
+2026-06-07 11:39:06 - email_automation - INFO - Starting TLS encryption
+2026-06-07 11:39:07 - email_automation - INFO - Successfully authenticated with SMTP server
+2026-06-07 11:39:07 - email_automation - INFO - Attached file: SafeSend_Letter_Builder_Presentation.pptx
+2026-06-07 11:39:07 - email_automation - INFO - Attached file: ChatGPT Image Apr 16, 2026, 07_43_41 PM.png
+2026-06-07 11:39:07 - email_automation - INFO - Sending email to pnehap244@gmail.com
+2026-06-07 11:39:18 - email_automation - ERROR - SMTP server disconnected while sending email. This often happens when attachments are too large or the server closes the connection: Server not connected
+2026-06-07 11:39:18 - email_automation - ERROR - Email to pnehap244@gmail.com | Subject: bulk email with attachments | Status: Failed | Details: SMTP server disconnected while sending email. This often happens when attachments are too large or the server closes the connection: Server not connected
+2026-06-07 11:39:18 - email_automation - WARNING - Error closing SMTP connection: please run connect() first
+2026-06-07 11:39:18 - email_automation - INFO - Sending email 2/2 to nehapsinfo@gmail.com
+2026-06-07 11:39:18 - email_automation - INFO - Connecting to SMTP server: smtp.gmail.com:587
+2026-06-07 11:39:20 - email_automation - INFO - Starting TLS encryption
+2026-06-07 11:39:20 - email_automation - INFO - Successfully authenticated with SMTP server
+2026-06-07 11:39:20 - email_automation - INFO - Attached file: SafeSend_Letter_Builder_Presentation.pptx
+2026-06-07 11:39:20 - email_automation - INFO - Attached file: ChatGPT Image Apr 16, 2026, 07_43_41 PM.png
+2026-06-07 11:39:20 - email_automation - INFO - Sending email to nehapsinfo@gmail.com
+2026-06-07 11:39:31 - email_automation - ERROR - SMTP server disconnected while sending email. This often happens when attachments are too large or the server closes the connection: Server not connected
+2026-06-07 11:39:31 - email_automation - ERROR - Email to nehapsinfo@gmail.com | Subject: bulk email with attachments | Status: Failed | Details: SMTP server disconnected while sending email. This often happens when attachments are too large or the server closes the connection: Server not connected
+2026-06-07 11:39:31 - email_automation - WARNING - Error closing SMTP connection: please run connect() first
+2026-06-07 11:39:31 - email_automation - INFO - Bulk email sending completed. Successful: 0, Failed: 2
+2026-06-07 11:42:58 - email_automation - INFO - Starting bulk email sending to 2 recipients
+2026-06-07 11:42:58 - email_automation - INFO - Sending email 1/2 to pnehap244@gmail.com
+2026-06-07 11:42:58 - email_automation - INFO - Connecting to SMTP server: smtp.gmail.com:587
+2026-06-07 11:43:01 - email_automation - INFO - Starting TLS encryption
+2026-06-07 11:43:01 - email_automation - INFO - Successfully authenticated with SMTP server
+2026-06-07 11:43:01 - email_automation - INFO - Attached file: ChatGPT Image May 24, 2026, 11_55_11 AM.png
+2026-06-07 11:43:01 - email_automation - INFO - Attached file: SafeSend_Letter_Builder_Presentation.pptx
+2026-06-07 11:43:01 - email_automation - INFO - Sending email to pnehap244@gmail.com
+2026-06-07 11:43:13 - email_automation - INFO - Email sent successfully in 14.94s
+2026-06-07 11:43:13 - email_automation - INFO - Email to pnehap244@gmail.com | Subject: bulk email with attachments | Status: Success | Details: Sent in 14.94s
+2026-06-07 11:43:13 - email_automation - INFO - Closed SMTP connection
+2026-06-07 11:43:13 - email_automation - INFO - Sending email 2/2 to nehapsinfo@gmail.com
+2026-06-07 11:43:13 - email_automation - INFO - Connecting to SMTP server: smtp.gmail.com:587
+2026-06-07 11:43:16 - email_automation - INFO - Starting TLS encryption
+2026-06-07 11:43:16 - email_automation - INFO - Successfully authenticated with SMTP server
+2026-06-07 11:43:16 - email_automation - INFO - Attached file: ChatGPT Image May 24, 2026, 11_55_11 AM.png
+2026-06-07 11:43:16 - email_automation - INFO - Attached file: SafeSend_Letter_Builder_Presentation.pptx
+2026-06-07 11:43:16 - email_automation - INFO - Sending email to nehapsinfo@gmail.com
+2026-06-07 11:43:28 - email_automation - INFO - Email sent successfully in 14.84s
+2026-06-07 11:43:28 - email_automation - INFO - Email to nehapsinfo@gmail.com | Subject: bulk email with attachments | Status: Success | Details: Sent in 14.84s
+2026-06-07 11:43:29 - email_automation - INFO - Closed SMTP connection
+2026-06-07 11:43:29 - email_automation - INFO - Bulk email sending completed. Successful: 2, Failed: 0
