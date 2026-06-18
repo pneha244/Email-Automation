@@ -71,8 +71,6 @@ logs/email_report.csv
 
 ✔ Success/failure notifications
 
-## Version
-
-**Email Automation System v1.0**
+## Authors
 
 Developed by Neha P
